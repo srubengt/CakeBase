@@ -10,8 +10,7 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
-        "maiconpinto/cakephp-adminlte-theme": "^1.0",
-        "davidyell/proffer": "~0.6"
+        "maiconpinto/cakephp-adminlte-theme": "^1.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -49,5 +48,11 @@
         "test": "vendor/bin/phpunit --colors=always"
     },
     "minimum-stability": "beta",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "url": "https://github.com/srubengt/CakePHP3-Proffer.git",
+            "type": "git"
+        }
+    ]
 }

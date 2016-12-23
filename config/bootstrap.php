@@ -222,5 +222,20 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 
-Plugin::load('ContactManager', ['routes' => true]);
+Configure::write('Theme', [
+    'title' => 'CakeBase',
+    'folder' => ROOT,
+    'logo' => [
+        'mini' => '<b>C</b>B',
+        'large' => '<b>CakeB</b>ase'
+    ],
+    'login' => [
+        'show_remember' => true,
+        'show_register' => true,
+        'show_social' => true
+    ]
+]);
+
+//Plugin::load('ContactManager', ['routes' => true]);
