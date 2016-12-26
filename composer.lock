@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb2844b6253a9ed6997a1b735548e95c",
-    "content-hash": "ec67005ac5e485f26f6674dad59417f6",
+    "hash": "c57d999b09d1a3865cfbb2a56ac66f24",
+    "content-hash": "7dbb027eaf31f83ced3851b3b628805e",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -997,16 +997,16 @@
     "packages-dev": [
         {
             "name": "cakephp/bake",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "e0bf5c06712e21b20e9503e3d04b1cb8011499e6"
+                "reference": "5a76999b2379895a1581912500673da9c112429f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/e0bf5c06712e21b20e9503e3d04b1cb8011499e6",
-                "reference": "e0bf5c06712e21b20e9503e3d04b1cb8011499e6",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/5a76999b2379895a1581912500673da9c112429f",
+                "reference": "5a76999b2379895a1581912500673da9c112429f",
                 "shasum": ""
             },
             "require": {
@@ -1040,7 +1040,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2016-12-20 01:46:26"
+            "time": "2016-12-26 04:29:56"
         },
         {
             "name": "cakephp/debug_kit",
